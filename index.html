@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Todo list</title>
+    <link href="./style.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgb(235, 229, 229);
+        }
+        
+        h1 {
+            text-align: center;
+            color: rgb(18, 24, 24);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>TO DO LIST</h1>
+    <div>
+        <input type="text" placeholder="Your List" id="toDo" />
+        <input type="button" value="Add Task" onclick="taskinsertion()" />
+    </div>
+    <div id="outerBox"></div>
+
+    <script src="./aap.js"></script>
+</body>
+
+</html>
